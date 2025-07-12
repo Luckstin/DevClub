@@ -19,7 +19,7 @@ p {
 }
 
 p::first-line {
-    color: red;
+    color: blueviolet;
 }
 
 a {
