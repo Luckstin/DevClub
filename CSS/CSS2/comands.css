@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+input {
+    border: 2px solid green;
+    color: blue;
+}
+
+inputt::placeholder {
+    color: pink;
+
+}
+
+p {
+    color: bisque;
+}
+
+p::first-line {
+    color: red;
+}
+
+a {
+    color: blue;
+}
+
+a::before {
+    content: "🚀";
+}
+
+a::after {
+    content: "🚀";
+}
