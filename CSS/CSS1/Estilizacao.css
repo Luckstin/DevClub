@@ -1,0 +1,36 @@
+
+
+
+      h1 {
+        color: red;
+        font-size: 55px;
+        font-family: 'Roboto', sans-serif;
+        font-style: italic;/* Troca o estilo texto */
+        font-weight: lighter;
+        text-shadow: 10px 10px 8px #black;/* manipula a sombra do texto */
+        
+      }
+
+     p {
+        color: blue; /* Troca a cor do texto */
+        font-size: 20px;/* Troca o tamanho do texto */
+        font-weight: bold;/* Troca a largura do texto */
+        font-family: 'Roboto', sans-serif;/* Troca a fonte do texto */
+        font-style: italic;/* Troca a forma de escrita do texto */
+        line-height: 20px;/* Troca a altura da linha do texto */
+        letter-spacing: 10px;/* Troca espaçamento das letras texto */
+        word-spacing: 20px;/* Troca espaçamento das palavras texto */
+        text-align: center;/* Troca o alinhamento do texto */
+        text-transform: capitalize;/* Transforma o texto */
+        text-decoration: underline;/* Insere underline, upperline do texto */
+
+
+      }
+
+      button {
+        background: green;
+      }
+
+      #outro-botao{
+        background: chocolate;
+      }

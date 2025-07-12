@@ -1,0 +1,17 @@
+/*.texto, .botao, p, #outro-botao {
+    color: red;
+    font-weight: bold;
+}
+
+/* 
+    CSS
+    Folha de Estilo em Cascata
+*/
+
+h1 {
+    color: black;
+}
+
+h1 {
+    color: blue;
+}

@@ -1,0 +1,95 @@
+/* PSEUDO CLASSES
+
+:active - quando o elemento está ativo, ou seja, está sendo pressionado
+:visited - visited
+:checked - usado em radio / checkbox / select
+:hover quando o mouse passa em cima do elemento
+:focus - é aplicada quando um elemento foco, o que pode ocorrer quando o usuário seleciona o elemento
+:disabled - elemento desabilitado / button / input
+:read-only - seleciona input ou textarea que são apenas leitura
+:empty - elemento que não tem filho
+
+:first-child - primeiro filho / ex: primeira li de uma ul / primeiro span de uma div
+:first-of-type - primeiro elemento de seu tipo entre os filhos de seu elemento pai.
+:last-child - Último Filho
+:last-of-type - último elemento de seu tipo entre os filhos de seu elemento pai
+:not() - estiliza os elementos, exceto o que está dentro do ()
+:nth-child - seleciona o elemento baseado na sua posição. Ex: :nth-child(3)
+:nth-last-child
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.a1:active {
+    color: brown;
+}
+
+.a2:visited {
+    color: blue;
+}
+
+.a3:hover {
+    color: blueviolet;
+}
+
+input:checked {
+    width: 100px;
+    height: 100px;
+}
+
+input:focus {
+    border: 1px solid red;
+    outline: none;
+}
+
+input:read-only {
+    border: 1px solid blue;
+    outline: none;
+}
+
+.container{
+    height: 100px;
+    width: 100px;
+    background: brown;
+}
+
+.container:empty {
+    background: black;
+}
+
+li:first-child {
+    background: red;
+}
+
+li:last-child {
+    background: red;
+}
+
+span:first-of-type {
+    color: blueviolet;
+}
+
+span:first-of-type {
+    color: aqua;
+}
+
+span:last-of-type {
+    color: blueviolet;
+}
+
+span:last-of-type {
+    color: aqua;
+}
+
+.container2:not(span) {
+    background: brown;
+}
+
+ul1:nth-child(3) {
+    color: blueviolet;
+}
